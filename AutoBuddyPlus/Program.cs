@@ -44,7 +44,7 @@ namespace AutoBuddy
            
             createFS();
             Chat.Print("Welcome to Auto Buddy Plus.");
-            Core.DelayAction(Start, 3000);
+            Core.DelayAction(Start, 10000);
             menu = MainMenu.AddMenu("AB+", "AB");
             menu.AddGroupLabel("Default");
             CheckBox c =
