@@ -117,7 +117,7 @@ namespace AutoBuddy
 
             if (MyNexus != null && EneMyNexus != null && (MyNexus.Health > 1) && (EneMyNexus.Health > 1))
             {
-                Core.DelayAction(OnEndGame, 5000);
+                Core.DelayAction(OnEndGame, 10000);
                 return;
             }
 
