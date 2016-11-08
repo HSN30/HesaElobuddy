@@ -60,7 +60,7 @@ namespace AutoBuddy
             */
             createFS();
             Chat.Print("Welcome to Auto Buddy Treeline.");
-            Core.DelayAction(Start, 3000);
+            Core.DelayAction(Start, 15000);
             menu = MainMenu.AddMenu("AB Treeline", "AB");
             menu.AddGroupLabel("Default");
             CheckBox c =
